@@ -43,6 +43,9 @@ endif
 " finder fast
 NeoBundle 'kien/ctrlp.vim'
 
+" vim git-gutter
+NeoBundle 'airblade/vim-gitgutter'
+
 " emmet for web
 NeoBundle 'mattn/emmet-vim'
 let g:user_emmet_leader_key='<C-Z>'
