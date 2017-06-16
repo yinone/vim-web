@@ -298,6 +298,7 @@ let NERDTreeMinimalUI=1
 
 " Display current file in the NERDTree ont the left
 nmap <silent> <leader>f :NERDTreeFind<CR>
+map <C-n> :NERDTreeToggle<CR>
 
 "-------------------------
 " Syntastic
@@ -585,7 +586,7 @@ set novisualbell
 set shortmess=atI
 
 " Enable display whitespace characters
-set list
+set nolist
 
 " Setting up how to display whitespace characters
 set listchars=tab:⇥\ ,trail:·,extends:⋯,precedes:⋯,nbsp:~
