@@ -545,7 +545,7 @@ highlight ColorColumn ctermbg=darkGrey
 set autoread
 
 " Always change current dirrectory to current-editing-file dir
-"set autochdir
+" set autochdir
 
 " Indicates fast terminal connection
 set ttyfast
@@ -640,6 +640,7 @@ set number
 
 " Highlight line with cursor
 set cursorline
+highlight CursorLine   cterm=NONE ctermbg=234 ctermfg=NONE guibg=NONE guifg=NONE
 
 " maximum text length at 80 symbols, vim automatically breaks longer lines
 " set textwidth=80
@@ -717,6 +718,9 @@ set wildcharm=<TAB>
 
 "--------------------------------------------------
 " Folding
+" folding depend on syntax or indent
+"set foldmethod=indent
+set foldmethod=syntax
 
 " Enable syntax folding in javascript
 let javaScript_fold=1
