@@ -13,4 +13,6 @@ copy the config to your .vimrc
     cd vim-web
     cp .vimrc ~/.vimrc
 
+---
+
 ![](https://dl.dropboxusercontent.com/s/blyjx1sh5ncdpqo/vi.png?dl=0)
