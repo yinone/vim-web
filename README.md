@@ -1,5 +1,6 @@
 ## The vimrc config
 It's a beautiful and simple vimrc config for front-end development
+
 ![](vim.png)
 
 ## Installation
