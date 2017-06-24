@@ -13,6 +13,12 @@ copy the config to your .vimrc
     cd vim-web
     cp .vimrc ~/.vimrc
 
----
+## Update
+    
+ Do a git rebase
 
+    cd ~/.web_vimrc
+    git pull -rebase
+
+---
 ![](https://dl.dropboxusercontent.com/s/blyjx1sh5ncdpqo/vi.png?dl=0)
