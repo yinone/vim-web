@@ -12,8 +12,7 @@ get the vimrc
 ## Update
 do a git rebase
 
-    cd ~/.web_vimrc
-    git pull -rebase
+    cd ~/.web_vimrc && git pull --rebase
     sh ~/.web_vimrc/install.sh
 
 ---
