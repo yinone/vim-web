@@ -10,11 +10,11 @@ get the vimrc
     sh ~/.web_vimrc/install.sh
 
 ## Update
-    
 do a git rebase
 
     cd ~/.web_vimrc
     git pull -rebase
+    sh ~/.web_vimrc/install.sh
 
 ---
 ![](https://dl.dropboxusercontent.com/s/blyjx1sh5ncdpqo/vi.png?dl=0)
