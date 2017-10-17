@@ -40,6 +40,9 @@ endif
 
 "--------------------------------------------------
 " Bundles
+" Colorscheme solarazied for vim
+NeoBundle 'altercation/vim-colors-solarized'
+
 " finder fast
 NeoBundle 'kien/ctrlp.vim'
 
@@ -85,9 +88,6 @@ NeoBundle 'honza/vim-snippets'
 
 " Dirr diff
 NeoBundle 'vim-scripts/DirDiff.vim'
-
-" Colorscheme solarazied for vim
-NeoBundle 'altercation/vim-colors-solarized'
 
 " Allow autoclose paired characters like [,] or (,),
 " and add smart cursor positioning inside it,
@@ -202,13 +202,6 @@ NeoBundle 'Shougo/neomru.vim'
 
 " Yank history for unite
 NeoBundle 'Shougo/neoyank.vim'
-
-" Plugin for chord mappings
-NeoBundle 'kana/vim-arpeggio'
-
-" JShint :)
-" But not necessary with syntastics
-" NeoBundle 'walm/jshint.vim'
 
 call neobundle#end()
 
@@ -513,12 +506,6 @@ inoremap <expr><Down>  neocomplcache#close_popup() . "\<Down>"
 
 " disable preview in code complete
 set completeopt-=preview
-
-"-------------------------
-" Arpeggio
-
-" map jk to escape
-call arpeggio#map('i', '', 0, 'jk', '<ESC>')
 
 "--------------------------------------------------
 " Colorscheme

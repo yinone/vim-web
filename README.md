@@ -1,5 +1,8 @@
 ## The vimrc config
-It's a beautiful and simple vimrc config for front-end development
+> It's a beautiful and simple vimrc config for front-end development 
+
+## Plugins manager
+> [NeoBundle](https://github.com/Shougo/neobundle.vim)
 
 ![](vim.png)
 
