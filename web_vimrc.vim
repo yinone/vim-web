@@ -40,10 +40,6 @@ endif
 
 "--------------------------------------------------
 " Bundles
-" Colorscheme solarazied for vim
-NeoBundle 'altercation/vim-colors-solarized'
-silent !mkdir $HOME/.vim/colors > /dev/null 2>&1
-silent !cp $HOME/.vim/bundle/vim-colors-solarized/colors/solarized.vim $HOME/.vim/colors/
 
 " finder fast
 NeoBundle 'kien/ctrlp.vim'
@@ -192,6 +188,9 @@ NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'Shougo/neoyank.vim'
 
 call neobundle#end()
+
+" Colorscheme solarazied for vim
+NeoBundle 'altercation/vim-colors-solarized'
 
 " Enable Indent in plugins
 filetype plugin indent on
