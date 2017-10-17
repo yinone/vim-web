@@ -191,8 +191,8 @@ NeoBundle 'Shougo/neoyank.vim'
 
 call neobundle#end()
 
-slient !mkdir $HOME/.vim_backup > /dev/null 2>&1
-slient !cp $HOME/.vim/bundle/vim-colors-solarized/colors/solarized.vim $HOME/.vim/colors/
+silent !mkdir $HOME/.vim_backup > /dev/null 2>&1
+silent !cp $HOME/.vim/bundle/vim-colors-solarized/colors/solarized.vim $HOME/.vim/colors/
 " Enable Indent in plugins
 filetype plugin indent on
 " Enable syntax highlighting
