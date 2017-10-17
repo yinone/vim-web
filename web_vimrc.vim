@@ -42,9 +42,7 @@ endif
 " Bundles
 " Colorscheme solarazied for vim
 NeoBundle 'altercation/vim-colors-solarized'
-if [ ! -d ~/.vim/colors ]; then
-    mkdir ~/.vim/colors
-fi
+silent !mkdir ~/.vim/colors > /dev/null 2>&1
 silent !cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
 
 " finder fast
