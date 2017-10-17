@@ -61,7 +61,7 @@ NeoBundle 'Shougo/neobundle.vim'
 
 " Instlall vimrpoc. is uses by unite and neocomplcache
 " for async searches and calls
-NeoBundle 'Shougo/vimproc', {
+NeoBundle 'Shougo/vimproc.vim', {
 \ 'build' : {
 \     'mac' : 'make -f make_mac.mak',
 \     'unix': g:make
