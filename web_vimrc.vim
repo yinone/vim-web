@@ -59,21 +59,8 @@ NeoBundle 'posva/vim-vue'
 " Let NeoNeoBundle manage NeoNeoBundle
 NeoBundle 'Shougo/neobundle.vim'
 
-" Instlall vimrpoc. is uses by unite and neocomplcache
-" for async searches and calls
-NeoBundle 'Shougo/vimproc.vim', {
-\ 'build' : {
-\     'mac' : 'make -f make_mac.mak',
-\     'unix': g:make
-\    },
-\ }
-
 " Some support functions used by delimitmate, and snipmate
 NeoBundle 'vim-scripts/tlib'
-
-" Improve bookmarks in vim
-" Allow word for bookmark marks, and nice quickfix window with bookmark list
-" NeoBundle 'AndrewRadev/simple_bookmarks.vim'
 
 " plugin for fuzzy file search, most recent files list
 " and much more
@@ -81,8 +68,7 @@ NeoBundle 'Shougo/unite.vim'
 
 " Snippets engine with good integration with neocomplcache
 NeoBundle 'Shougo/neosnippet'
-" Default snippets for neosnippet, i prefer vim-snippets
-"NeoBundle 'Shougo/neosnippet-snippets'
+
 " Default snippets
 NeoBundle 'honza/vim-snippets'
 
