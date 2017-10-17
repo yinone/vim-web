@@ -42,6 +42,7 @@ endif
 " Bundles
 " Colorscheme solarazied for vim
 NeoBundle 'altercation/vim-colors-solarized'
+silent !cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
 
 " finder fast
 NeoBundle 'kien/ctrlp.vim'
